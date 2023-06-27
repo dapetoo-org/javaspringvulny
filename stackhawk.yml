@@ -1,7 +1,7 @@
 app:
   applicationId: 2ac41ca9-ea96-4ad1-894f-80654430a044
-  env: ${APP_ENV:dev}
-  host: ${APP_HOST:https://localhost:9000}
+  env: dev
+  host: https://localhost:9000
   waitForAppTarget:
     path: /
     waitTimeoutMillis: 200000
