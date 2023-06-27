@@ -1,11 +1,7 @@
 name: HawkScan
 on:
-  push:
-    branches: [main]
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-  # repository_dispatch:
-  #   types: [integration-initial-test]
+  repository_dispatch:
+    types: [integration-initial-test]
 jobs:
   hawkscan:
     name: HawkScan
